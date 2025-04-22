@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     // Health totals
     
-    var playerOneHealthValue = 100
-    var playerTwoHealthValue = 100
+    var playerOneHealthValue = 20
+    var playerTwoHealthValue = 20
     
     
     
