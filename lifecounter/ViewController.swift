@@ -100,6 +100,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         drawPlayers()
         toolbar.items?.removeAll()
         toolbar.items = [addPlayerButton, removePlayerButton]
+        addPlayerButton.isEnabled = true
     }
     
         func setupScrollView() {
